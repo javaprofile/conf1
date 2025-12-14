@@ -38,23 +38,23 @@ Enabled more efficient scaling of distributed systems as cluster size increases,
   
 **Experimental Results (Summary)**:
 
-  | Nodes | Multi-Version Concurrency Control Storage | Optimistic Concurrency Control | Reduction (%)   |
-  |-------|-------------------------------------------| -------------------------------| ----------------|
-  | 3     |  3                                        | 1                              | 66.67           |
-  | 5     |  5                                        | 1.5                            | 70.00           |
-  | 7     |  7                                        | 2                              | 71.43           |
-  | 9     |  9                                        | 2.5                            | 72.22           |
-  | 11    |  11                                       | 3                              | 72.73           |
+  | Nodes | Multi-Paxos (k ops/sec) | Mencius (k ops/sec) | Reduction (%)   |
+  |-------|-------------------------| --------------------| ----------------|
+  | 3     |  60                     | 110                 | 83.33           |
+  | 5     |  75                     | 135                 | 80.00           |
+  | 7     |  65                     | 123                 | 89.23           |
+  | 9     |  57                     | 105                 | 84.21           |
+  | 11    |  52                     | 95                  | 82.69           |
 
 **Citation** \
-STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL
+PERFORMANCE EVALUATION OF MULTI-PAXOS AND MENCIUS ALGORITHMS IN DISTRIBUTED SYSTEMS
 * Vipul R 
-* International Journal on Science and Technology 
-* E-ISSN 2229-7677
+* Inter***********echnology 
+* E-ISSN 2*******
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijsat.org/ \
+https://www.*******/ \
 **Author Contact** \
 **LinkedIn**: http://linkedin.com/in/Please add here | **Email**: please keep email id @gmail.com
 

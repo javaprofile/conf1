@@ -1,44 +1,41 @@
 # conf1
-Performance evaluation of multi-paxos and mencius algorithms in distributed systems
-
-# storage_optimization
-**STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL**
+**PERFORMANCE EVALUATION OF MULTI-PAXOS AND MENCIUS ALGORITHMS IN DISTRIBUTED SYSTEMS**
 * Author: Vipul Reddy
-* Published In : International Journal on Science and Technology (IJSAT)
-* Publication Date: 06-2024
-* E-ISSN: 2229-7677
-* Impact Factor: 9.88
+* Published In : Intern************
+* Publication Date: 05-2025
+* E-ISSN: 2****
+* Impact Factor: ****
 * Link:
 
 **Abstract:**\
-This paper addresses performance and storage overhead challenges in database transaction management caused by maintaining multiple data versions under Multi-Version Concurrency Control (MVCC). It examines how the accumulation of record versions and associated garbage collection processes introduce storage overhead and management complexity, particularly in high-concurrency environments. The study emphasizes the trade-offs of MVCC, including version proliferation, cleanup costs, and the impact of complex transaction interactions such as write skew. By integrating Optimistic Concurrency Control, the proposed approach reduces unnecessary version creation and minimizes storage overhead while preserving snapshot isolation and consistency guarantees. The paper highlights the need for efficient version management strategies to enhance scalability, throughput, and resource utilization in high-performance database systems.
+This paper addresses performance and scalability limitations in distributed consensus systems caused by the leader-centric design of the Multi-Paxos algorithm. It examines how reliance on a single leader for proposal coordination creates throughput bottlenecks, increases recovery delays during leader failures, and limits system scalability as the number of nodes grows. The study emphasizes the trade-offs of Multi-Paxos, including strong consistency and fault tolerance at the cost of reduced throughput and increased leader workload. By contrasting Multi-Paxos with the Mencius algorithm, which enables decentralized proposal handling and concurrent decision-making, the proposed analysis highlights significant improvements in throughput and load distribution. The paper underscores the need for decentralized consensus mechanisms to achieve higher performance and scalability in large-scale distributed systems while maintaining consistency guarantees.
 
 **Key Contributions:**
-* **Storage Overhead Mitigation:**\
-Investigated the storage inefficiencies introduced by Multi-Version Concurrency Control due to version proliferation and garbage collection overhead in distributed environments.
+* **Consensus Bottleneck Analysis:**\
+Examined the throughput limitations of leader-based consensus caused by centralized coordination and increasing leader workload in Multi-Paxos.
 
-* **Optimistic Concurrency Integration:**\
-Applied Optimistic Concurrency Control selectively to reduce unnecessary version creation while preserving transactional consistency and isolation guarantees.
+* **Decentralized Proposal Strategy:**\
+Analyzed the Mencius consensus approach, where multiple nodes propose concurrently, reducing reliance on a single coordinator and improving parallelism.
   
-* **Comprehensive Evaluation:** \
-  Conducted a detailed comparative analysis of MVCC and OCC across multiple cluster sizes, demonstrating significant reductions in storage consumption and predictable scalability behavior.
+* **Comparative Throughput Evaluation:** \
+  Conducted a detailed performance comparison of Multi-Paxos and Mencius across varying cluster sizes, demonstrating consistently higher throughput for Mencius.
   
-* **Research & Implementation Leadership:**\
-  Directed the design, implementation, and experimental validation of a hybrid concurrency control approach focused on improving storage efficiency and scalability.
+* **Design and Experimental Validation:**\
+  Designed, implemented, and validated simulation-based experiments to measure throughput behavior and scalability characteristics of both consensus algorithms.
 
 **Relevance & Real-World Impact**
-* **Improved Storage Efficiency:**\
-Reduced disk space usage in distributed database systems by minimizing versioning overhead without compromising transaction correctness.
+* **Improved System Throughput:**\
+Achieved significantly higher operations per second by eliminating leader bottlenecks through decentralized consensus.
 
-* **Scalable Distributed Deployment:**\
-Enabled more storage-efficient scaling of database clusters by adopting OCC in low-contention scenarios while retaining MVCC where strong consistency is required.
+* **Better Scalability for Large Clusters:**\
+Enabled more efficient scaling of distributed systems as cluster size increases, with gradual performance degradation instead of sharp drops.
 
-* **System-Level Performance Benefits:** \
-    Lowered garbage collection pressure and metadata management costs, resulting in improved throughput and reduced resource utilization.
+* **Reduced Coordination Overhead:** \
+    Distributed proposal responsibilities across nodes, minimizing idle time and improving overall resource utilization.
   
-* **Academic and Educational Value:** \
-    Provides empirical insights and implementation references for research and teaching in concurrency control, distributed databases, and storage optimization.
-
+* **Academic and Practical Value:** \
+    Provides clear experimental evidence and implementation insights useful for research, teaching, and system design involving distributed consensus algorithms.
+  
 **Experimental Results (Summary)**:
 
   | Nodes | Multi-Version Concurrency Control Storage | Optimistic Concurrency Control | Reduction (%)   |

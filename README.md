@@ -1,6 +1,6 @@
 # conf1
 **PERFORMANCE EVALUATION OF MULTI-PAXOS AND MENCIUS ALGORITHMS IN DISTRIBUTED SYSTEMS**
-* Author: Vipul Reddy
+* Author: Vipul Kumar Bondugula
 * Published In : Intern************
 * Publication Date: 05-2025
 * E-ISSN: 2****
@@ -48,7 +48,7 @@ Enabled more efficient scaling of distributed systems as cluster size increases,
 
 **Citation** \
 PERFORMANCE EVALUATION OF MULTI-PAXOS AND MENCIUS ALGORITHMS IN DISTRIBUTED SYSTEMS
-* Vipul R 
+* Vipul Kumar Bondugula
 * Inter***********echnology 
 * E-ISSN 2*******
 * License \
@@ -56,7 +56,7 @@ This research is shared for a academic and research purposes. For commercial use
 **Resources** \
 https://www.*******/ \
 **Author Contact** \
-**LinkedIn**: http://linkedin.com/in/Please add here | **Email**: please keep email id @gmail.com
+**LinkedIn**: https://www.linkedin.com/in/vipul-b-18468a19/ | **Email**: vipulreddy574@gmail.com
 
 
 
